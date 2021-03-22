@@ -3,9 +3,11 @@
   <world name="world">
     <gravity>0 0 -9.8</gravity>
     <physics default="0" name="default_physics" type="ode">
-      <max_step_size>0.001</max_step_size>
+      <max_step_size>0.02</max_step_size>
+      <!--<max_step_size>0.001</max_step_size>-->
       <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>1000</real_time_update_rate>
+      <real_time_update_rate>50</real_time_update_rate>
+      <!--<real_time_update_rate>1000</real_time_update_rate>-->
     </physics>
     <scene>
       <ambient>0.6 0.6 0.6 1</ambient>
@@ -53,7 +55,7 @@
         <static>true</static>
         <pose>1.51134 19.487 0.19 0 -0 0</pose>
       </include>
-    </model>
+    </model><!--
     <model name="aws_robomaker_hospital_elevator_01_car_1">
       <include>
         <uri>model://aws_robomaker_hospital_elevator_01_car</uri>
@@ -1285,6 +1287,6 @@
         <static>true</static>
         <pose>1.30985 -0.727185 -0 0 0 -1.53446</pose>
       </include>
-    </model>
+    </model>-->
   </world>
 </sdf>
