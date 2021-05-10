@@ -55,7 +55,7 @@
         <static>true</static>
         <pose>1.51134 19.487 0.19 0 -0 0</pose>
       </include>
-    </model><!--
+    </model>
     <model name="aws_robomaker_hospital_elevator_01_car_1">
       <include>
         <uri>model://aws_robomaker_hospital_elevator_01_car</uri>
